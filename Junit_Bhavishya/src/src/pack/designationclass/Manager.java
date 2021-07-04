@@ -1,0 +1,15 @@
+package src.pack.designationclass;
+
+public class Manager extends Employee {
+	public Manager()
+	{
+	 setSal("90000");
+	 setDesig("Manager");	
+	}
+	
+	public void raiseSalary()
+	{
+		setSal(getSal()+1000);
+	}
+	
+}
